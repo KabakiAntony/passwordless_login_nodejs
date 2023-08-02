@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/header.ejs') %>
+
+    <body>
+        <%- include('./partials/nav.ejs') %>
+
+            <h2 class="cta-signin"> Enter email to signin, we don't use a passwords here</h2>
+
+            <main>
+                <div class="registration-form">
+                    <h2>Sign In</h2>
+                    <form action="/signin" method="post">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <button type="submit">Sign In</button>
+                    </form>
+                </div>
+            </main>
+
+            <%- include('./partials/footer.ejs') %>
+
+    </body>
+
+</html>

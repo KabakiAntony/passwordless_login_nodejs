@@ -1,0 +1,3 @@
+2023-08-02	14:19:17	ae50cebc-084d-4eae-8b24-4496fca9b9ea	TypeError: Cannot read properties of undefined (reading 'id')
+2023-08-02	15:07:28	98f87678-4996-4a4b-824e-cdda470a795b	ReferenceError: foundUser is not defined
+2023-08-02	15:09:11	477fa15e-a6ad-4ec8-852e-9c9612d5f4ca	Error: secretOrPrivateKey must have a value

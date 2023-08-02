@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    /* remove colors not being used later*/
+    --color-primary: #000000;
+    --color-white: #ffffff;
+    --color-info-bg: #46A7F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-size: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cta-signin {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+header {
+    background-color: var(--color-info-bg);
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form label,
+.registration-form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.registration-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-form button {
+    padding: 10px 15px;
+    background-color: var(--color-info-bg);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--color-info-bg);
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
