@@ -37,7 +37,7 @@ const signInUser = async (req, res) => {
 
     <p>Click on the link below to access your account.</p>
 
-    <a href=${link}>Log In</a>
+    <a href=${link}>Sign In</a>
 
 
     <p>Cheers,</p>
