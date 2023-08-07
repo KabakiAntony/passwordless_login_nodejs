@@ -1,3 +1,23 @@
-<p>Hello <%= email %>
-</p>
-<p>This is your profile page</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/header.ejs') %>
+
+    <body>
+        <%- include('./partials/nav.ejs') %>
+
+            <h2 class="cta-signin"> This is the best social site, imagine you have signed in without a password.</h2>
+
+            <main>
+                <p>Hello &nbsp;<%= email %>
+                </p>
+                &nbsp;&nbsp;&nbsp;<p>This is your profile page</p>
+            </main>
+
+
+
+            <%- include('./partials/footer.ejs') %>
+
+    </body>
+
+</html>
