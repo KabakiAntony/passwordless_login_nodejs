@@ -15,7 +15,7 @@ const verifyLinkMiddleware = (req, res, next) => {
                     // to request a new token
                     res.status(401).json({ 'message': 'Token is expired' });
                 } else if (err.name === 'JsonWebTokenError') {
-                    res.status(403).json({ 'message': 'Token is invlaid' });
+                    res.status(403).json({ 'message': 'Token is invalid' });
                 } else {
                     res.sendStatus(500)
                 }
