@@ -277,3 +277,6 @@
 2023-08-04	16:35:48	ab760636-9445-412b-b381-ef66e3f622b9	GET	undefined	/signin
 2023-08-04	16:35:56	ca86b2ef-f53a-4b90-80f9-24825d5a3a79	GET	undefined	/
 2023-08-04	16:35:57	375f1b44-ac11-40b9-980b-cd21817cf251	GET	undefined	/css/style.css
+2023-08-28	11:35:16	7fa353c4-c3c4-4a01-881e-146327a27bbf	GET	undefined	/
+2023-08-28	11:35:16	8be81a27-7828-4840-8542-cf6871b685a9	GET	undefined	/css/style.css
+2023-08-28	11:35:16	da2028b2-ee80-4724-98af-aa4c487c1bb8	GET	undefined	/favicon.ico
